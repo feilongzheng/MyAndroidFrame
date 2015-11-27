@@ -1,0 +1,287 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:2:1-207:12
+	xmlns:android
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:11:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:12:22-78
+uses-feature#android.hardware.camera
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:13:5-60
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:13:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:14:5-70
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:14:19-67
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:15:22-63
+uses-permission#android.permission.FLASHLIGHT
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:16:5-69
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:16:22-66
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:17:5-75
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:17:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:18:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:19:22-73
+uses-permission#android.permission.INTERNET
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:20:5-67
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:20:22-64
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:22:22-65
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:23:5-76
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:23:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:24:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:25:22-77
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:27:5-69
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:27:22-66
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:28:5-71
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:28:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:29:5-74
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:29:22-71
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:30:5-74
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:30:22-71
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:31:5-80
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:31:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:35:5-79
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:35:22-76
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:36:5-85
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:36:22-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:37:5-68
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:37:22-65
+uses-permission#android.permission.ACCESS_GPS
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:40:5-69
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:40:22-66
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:42:5-72
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:42:22-69
+uses-permission#android.permission.READ_SMS
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:44:5-67
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:44:22-64
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:45:5-67
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:45:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:50:5-51:23
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:50:22-68
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:54:5-81
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:54:22-78
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:55:5-75
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:55:22-72
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:56:5-73
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:56:22-70
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:58:5-59:23
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:58:22-78
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:61:5-80
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:61:22-77
+supports-screens
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:74:5-79:39
+	android:resizeable
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:78:9-34
+	android:largeScreens
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:76:9-36
+	android:anyDensity
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:75:9-34
+	android:normalScreens
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:77:9-38
+	android:smallScreens
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:79:9-36
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:105:5-106:23
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:105:22-81
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:108:5-109:23
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:108:22-65
+permission#com.lcworld.fitness.permission.JPUSH_MESSAGE
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:113:5-115:47
+	android:protectionLevel
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:115:9-44
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:114:9-68
+uses-permission#com.lcworld.fitness.permission.JPUSH_MESSAGE
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:117:5-84
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:117:22-81
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:118:5-79
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:118:22-76
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:128:5-78
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:128:22-75
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:135:5-89
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:135:22-86
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:136:5-79
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:136:22-76
+application
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:144:5-199:19
+	android:label
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:149:9-41
+	android:allowBackup
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:146:9-35
+	android:icon
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:148:9-45
+	android:theme
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:151:9-40
+	android:hardwareAccelerated
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:147:9-43
+	android:largeHeap
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:150:9-33
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:145:9-81
+uses-library#android.test.runner
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:154:9-60
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:154:23-57
+activity#com.lcworld.fitness.main.WelcomeActivity
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:156:9-167:20
+	android:windowSoftInputMode
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:161:13-67
+	android:screenOrientation
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:160:13-49
+	android:label
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:159:13-45
+	android:configChanges
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:158:13-63
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:157:13-68
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:162:13-166:29
+action#android.intent.action.MAIN
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:163:17-69
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:163:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:165:17-77
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:165:27-74
+activity#com.lcworld.fitness.login.activity.LoginActivity
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:170:9-175:20
+	android:windowSoftInputMode
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:174:13-64
+	android:screenOrientation
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:173:13-49
+	android:configChanges
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:172:13-63
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:171:13-76
+activity#com.lcworld.fitness.regist.activity.RegistActivity
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:177:9-182:20
+	android:windowSoftInputMode
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:181:13-67
+	android:screenOrientation
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:180:13-49
+	android:configChanges
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:179:13-63
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:178:13-78
+activity#com.lcworld.fitness.main.MainActivity
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:184:9-188:20
+	android:windowSoftInputMode
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:187:13-52
+	android:screenOrientation
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:186:13-49
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:185:13-65
+activity#com.lcworld.fitness.login.activity.ResetPasswordActivity
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:191:9-197:20
+	android:windowSoftInputMode
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:195:13-67
+	android:screenOrientation
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:194:13-49
+	android:configChanges
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:193:13-63
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:192:13-84
+instrumentation#android.test.InstrumentationTestRunner
+ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:202:5-205:55
+	android:label
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:204:9-41
+	android:targetPackage
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:205:9-52
+	android:name
+		ADDED from /Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/AndroidManifest.xml:203:9-62

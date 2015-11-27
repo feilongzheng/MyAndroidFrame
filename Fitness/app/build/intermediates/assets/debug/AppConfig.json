@@ -1,0 +1,15 @@
+{
+	
+	"server_address":"http://124.205.55.210:9090/app/",
+	"alipay_address":"http://115.28.189.79/purifier/servlet/RSATrade",
+	"unionpay_address":"http://115.28.189.79/purifier/servlet/PurchaseReceiver",
+	
+	"imei":"GOLDEN_SMART201400112231",
+	"osName":"android",
+	"osVersion":"2.3",
+	"appVersion":"1.0.0.1",
+	"timeStamp":"20140712",
+	"uid":"0",
+	"authCode":"AIJianShen100"
+
+}

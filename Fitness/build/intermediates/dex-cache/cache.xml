@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/libs/universal-image-loader-1.9.2-with-sources.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="111169c43b8a601f571585f75d998e6027e48ff4">
+        <dex dex="/Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.2-with-sources-ae6b3ab970f96fb3bd2f25a379ad1d3e30071163.jar" />
+    </item>
+    <item
+        jar="/Users/xfeng/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/build/intermediates/pre-dexed/debug/gson-2.2.4-9340580ea9eba750dcefbec07e440e5a748528ee.jar" />
+    </item>
+    <item
+        jar="/Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/libs/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-d2eec6420b2c0e11649c3b12300b257d9f3d24e7.jar" />
+    </item>
+    <item
+        jar="/Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/libs/commons-lang3-3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="905075e6c80f206bbe6cf1e809d2caa69f420c76">
+        <dex dex="/Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/build/intermediates/pre-dexed/debug/commons-lang3-3.1-2e306d75bb6198ecafe6392f2d1c698597d8fa39.jar" />
+    </item>
+    <item
+        jar="/Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/libs/fastjson-1.1.26.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b2b3f3739af181d3c191b19ecb3f32fcb31af98f">
+        <dex dex="/Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/build/intermediates/pre-dexed/debug/fastjson-1.1.26-a679c54e2c8d7c8109d81a39dcc02412046448ed.jar" />
+    </item>
+    <item
+        jar="/Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/libs/zxing.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e88c14e6e7daa0fa65172a62b54ee6a16ff4162d">
+        <dex dex="/Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/build/intermediates/pre-dexed/debug/zxing-35c894a8053ef857ef236f1171e10d773abb09d3.jar" />
+    </item>
+    <item
+        jar="/Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/libs/commons-codec.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fd32786786e2adb664d5ecc965da47629dca14ba">
+        <dex dex="/Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/build/intermediates/pre-dexed/debug/commons-codec-b9f2dba79c04291c66c27ff93266585603850560.jar" />
+    </item>
+    <item
+        jar="/Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/libs/android-support-v4-21.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28">
+        <dex dex="/Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/build/intermediates/pre-dexed/debug/android-support-v4-21-3a2741398611966c77a1248ccd449f77f8267571.jar" />
+    </item>
+    <item
+        jar="/Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/libs/xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="/Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/build/intermediates/pre-dexed/debug/xUtils-2.6.14-dd70f2844796769a3b856a6ed8ad92720989e0bf.jar" />
+    </item>
+
+</items>

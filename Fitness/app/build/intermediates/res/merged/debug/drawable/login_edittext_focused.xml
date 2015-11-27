@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="#FFFFFF" />
+
+    <corners android:radius="5dip" />
+
+    <stroke
+        android:width="1dip"
+        android:color="#DADAD9" />
+
+</shape><!-- From: file:/Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/res/drawable/login_edittext_focused.xml -->

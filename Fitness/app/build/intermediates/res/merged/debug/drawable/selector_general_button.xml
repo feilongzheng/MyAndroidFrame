@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/bg_bt_down" android:state_pressed="true"/>
+    <!-- 默认时 -->
+    <item android:drawable="@color/bg_bt_up"></item>
+
+</selector><!-- From: file:/Users/xfeng/Documents/svn/Pengsi/trunk/develop/Fitness/app/src/main/res/drawable/selector_general_button.xml -->
