@@ -1,0 +1,14 @@
+
+*.bin
+bin/
+gen/
+build/
+.idea/
+infer-out/
+
+.DS_Store
+*.class
+*.classpath
+local.properties
+# OSX files
+.DS_Store
