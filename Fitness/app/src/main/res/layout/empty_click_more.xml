@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" 
+    android:gravity="center">
+    
+     <ImageView
+            android:id="@+id/no_result_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:src="@drawable/no_data_img"
+            android:visibility="visible" />
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="20sp"
+	    android:text="点击刷新！"
+	    android:textColor="@color/category_gray"
+	    android:layout_gravity="center"
+	    />
+	
+</LinearLayout>

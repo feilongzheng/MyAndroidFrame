@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- 内容 -->
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100"
+        android:background="@color/white" >
+    </FrameLayout>
+
+    <!-- 菜单 -->
+
+    <RadioGroup
+        android:id="@+id/rg_menu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_tab0"
+            style="@style/main_tab"
+            android:checked="true"
+            android:text="首页" 
+            android:drawableTop="@drawable/selector_main_tab_center_icon"
+            />
+
+        <RadioButton
+            android:drawableTop="@drawable/selector_main_tab_nearby_icon"
+            android:id="@+id/rb_tab1"
+            style="@style/main_tab"
+            android:text="附近" />
+
+        <RadioButton
+            android:drawableTop="@drawable/selector_main_tab_vip_icon"
+            android:id="@+id/rb_tab2"
+            style="@style/main_tab"
+            android:text="会员卡" />
+
+        <RadioButton
+            android:drawableTop="@drawable/selector_main_tab_my_icon"
+            android:id="@+id/rb_tab3"
+            style="@style/main_tab"
+            android:text="我的" />
+    </RadioGroup>
+
+</LinearLayout>

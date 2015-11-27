@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_normal_content"
+    android:orientation="vertical" >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" >
+
+            <EditText
+                android:id="@+id/et_phone"
+                style="@style/regist_edittext"
+                android:hint="手机号码"
+                android:inputType="phone" 
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_login_username"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/et_check_code"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:background="@drawable/selector_login_edittext"
+                    android:hint="验证码"
+                    android:paddingLeft="10.0dip"
+                    android:singleLine="true"
+                    android:textSize="14sp" 
+                    android:drawablePadding="5dp"
+                    android:drawableLeft="@drawable/ic_regist_checkcode"/>
+
+                <Button
+                    android:id="@+id/bt_getCheckWord"
+                    android:layout_width="100dp"
+                    android:layout_height="40.0dip"
+                    android:layout_marginLeft="20.0dip"
+                    android:background="@drawable/selector_regist_button_get_checkword"
+                    android:text="获取验证码"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_password"
+                style="@style/regist_edittext"
+                android:hint="密码(6~20位字母或数字)"
+                android:inputType="textPassword" 
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_login_password"/>
+
+            <EditText
+                android:id="@+id/et_cenfirmPassword"
+                style="@style/regist_edittext"
+                android:hint="确认密码"
+                android:inputType="textPassword"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_login_password"
+                 />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/cb"
+                    style="@style/MyCheckBox"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:checked="true" />
+
+                <TextView
+                    android:id="@+id/tv_agreement"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="我已阅读并同意《用户使用协议》"
+                    android:textColor="@color/gray"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bt_regist"
+                android:layout_width="match_parent"
+                android:layout_height="40.0dip"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="80.0dip"
+                android:background="@drawable/selector_login_button"
+                android:text="注册"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
